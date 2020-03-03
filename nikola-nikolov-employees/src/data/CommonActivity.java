@@ -25,6 +25,15 @@ public class CommonActivity
     /**
      * Constructor for CommonActivity.
      * 
+     */
+    public CommonActivity()
+    {
+        super();
+    }
+
+    /**
+     * Constructor for CommonActivity.
+     * 
      * @param projectID
      * @param employeeID1
      * @param employeeID2

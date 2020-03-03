@@ -35,7 +35,6 @@ public class UIGridViewer {
         DataProvider<CommonActivity> dataProvider = createDataProvider(maxCommonActivities);
         TableDecorator<CommonActivity> pagedDecorator = TableDecorator.decorate(table, dataProvider, new int[]{5, 10, 20, 50, 75, 100}, 10);
         JPanel gridPanel = pagedDecorator.getGridPanel();
-//        JPanel gridPanel = createGridPanel(table, maxCommonActivities);
         contentPanel.add(gridPanel);
 
         JButton loadButton = new JButton("Load File");

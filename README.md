@@ -15,3 +15,12 @@ ProjectID - EmployyeID1 - EmployeeID2 - CommonWorkDays
 >10 - 145 - 220 - 152
 >11 - 234 - 143 - 7
 >12 - 145 - 143 - 650
+
+If input data file is not specified:
+
+>java -jar nikola-nikolov-employees.jar
+
+no results is returned and grid in UI is empty.
+
+Swing UI allows file to be chosed from file syste.
+When different file is chosed, grid is updated.

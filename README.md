@@ -24,3 +24,7 @@ no results is returned and grid in UI is empty.
 
 Swing UI allows file to be chosed from file syste.
 When different file is chosed, grid is updated.
+
+Test files:
+eployees_project_pairs.txt
+eployees_project_pairs_new.txt
